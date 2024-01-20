@@ -9,16 +9,12 @@ const MAIN_CSS = css`
   height: 100vh;
 `
 
-const Main = (): JSX.Element => {
+const Home = (): JSX.Element => {
   const navigation = useNavigate()
   const onClickLogin = (): void => {
-    navigation('/Login')
+    navigation('/')
   }
-  return (
-    <Box css={MAIN_CSS}>
-      <Button onClick={onClickLogin}>ログイン画面に進む</Button>
-    </Box>
-  )
+  return <Box css={MAIN_CSS}>メインページ</Box>
 }
 
-export default Main
+export default Home

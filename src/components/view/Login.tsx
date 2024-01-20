@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react'
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 import { Box, Grid, Button } from '@mui/material'
 import { getLoginResponse, postCreateAccountResponse } from '../model/ApiModel'
@@ -97,6 +98,7 @@ const INPUT_CSS = css`
 `
 
 const Login = () => {
+  const navigation = useNavigate()
   // true: LOGIN, false: SIGN UP
   const [loginFlg, setLoginFlg] = useState(true)
   const [userName, setUserName] = useState('')
@@ -119,16 +121,31 @@ const Login = () => {
       getLoginResponse({
         user_name: userName,
         password: password,
+        onSuccessLogin,
+        onRejected,
       })
     } else if (password.trim() === confirmPassWord.trim()) {
       postCreateAccountResponse({
         user_name: userName,
         password: password,
+        onSuccessLogin,
+        onRejected,
       })
     }
   }
 
-  const getLoginResult = (status: number): void => {}
+  /**
+   * ログイン成功時の処理
+   * @param status
+   */
+  const onSuccessLogin = (status: number): void => {
+    navigation('/home')
+  }
+
+  /**
+   * ログイン失敗時の処理
+   */
+  const onRejected = (): void => {}
 
   return (
     <Box css={MAIN_CSS}>
