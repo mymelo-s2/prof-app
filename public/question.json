@@ -1,0 +1,96 @@
+[
+  {
+    "question_id": 1,
+    "category_id": 1,
+    "question_contents": "生まれ変わるなら何になりたい？"
+  },
+  {
+    "question_id": 2,
+    "category_id": 1,
+    "question_contents": "もらってうれしいプレゼントは？"
+  },
+  {
+    "question_id": 3,
+    "category_id": 1,
+    "question_contents": "友だちと旅行に行くならどこ？"
+  },
+  {
+    "question_id": 4,
+    "category_id": 1,
+    "question_contents": "休日は何してる？"
+  },
+  { "question_id": 5, "category_id": 1, "question_contents": "将来の夢は？" },
+  { "question_id": 6, "category_id": 2, "question_contents": "初恋はいつ？" },
+  {
+    "question_id": 7,
+    "category_id": 2,
+    "question_contents": "今好きな人がいる？"
+  },
+  {
+    "question_id": 8,
+    "category_id": 2,
+    "question_contents": "告白されたことがある？"
+  },
+  {
+    "question_id": 9,
+    "category_id": 2,
+    "question_contents": "告白したことがある？"
+  },
+  {
+    "question_id": 10,
+    "category_id": 2,
+    "question_contents": "つきあった人は何人？"
+  },
+  {
+    "question_id": 11,
+    "category_id": 2,
+    "question_contents": "キュンとくるしぐさは？"
+  },
+  {
+    "question_id": 12,
+    "category_id": 2,
+    "question_contents": "理想のタイプは？"
+  },
+  {
+    "question_id": 13,
+    "category_id": 2,
+    "question_contents": "デートするならどこに行きたい？"
+  },
+  {
+    "question_id": 14,
+    "category_id": 2,
+    "question_contents": "何才で結婚したい？"
+  },
+  {
+    "question_id": 15,
+    "category_id": 2,
+    "question_contents": "子どもは何人ほしい？"
+  },
+  { "question_id": 16, "category_id": 3, "question_contents": "テレビ・動画" },
+  {
+    "question_id": 17,
+    "category_id": 3,
+    "question_contents": "ゲーム・アプリ"
+  },
+  {
+    "question_id": 18,
+    "category_id": 3,
+    "question_contents": "マンガ・アニメ"
+  },
+  { "question_id": 19, "category_id": 3, "question_contents": "キャラクター" },
+  { "question_id": 20, "category_id": 3, "question_contents": "本・雑誌" },
+  { "question_id": 21, "category_id": 3, "question_contents": "教科" },
+  { "question_id": 22, "category_id": 3, "question_contents": "音楽" },
+  { "question_id": 23, "category_id": 3, "question_contents": "芸能人" },
+  { "question_id": 24, "category_id": 3, "question_contents": "色" },
+  { "question_id": 25, "category_id": 3, "question_contents": "食べもの" },
+  { "question_id": 26, "category_id": 3, "question_contents": "動物" },
+  { "question_id": 27, "category_id": 3, "question_contents": "ブランド" },
+  { "question_id": 28, "category_id": 3, "question_contents": "あそび" },
+  { "question_id": 29, "category_id": 3, "question_contents": "スポーツ" },
+  { "question_id": 30, "category_id": 3, "question_contents": "お酒" },
+  { "question_id": 31, "category_id": 1, "question_contents": "趣味は？" },
+  { "question_id": 32, "category_id": 3, "question_contents": "おかし" },
+  { "question_id": 33, "category_id": 3, "question_contents": "お寿司のネタ" },
+  { "question_id": 34, "category_id": 3, "question_contents": "おでんの具" }
+]
